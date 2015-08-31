@@ -1,0 +1,97 @@
+body {
+	padding: 0;
+	margin: 0;
+  background: #424242;
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+	font-size: 14px;
+}
+.container {
+  max-width: 600px;
+	margin: 0 auto;
+}
+.title{
+	width: 100%;
+	text-align: center;
+}
+a:visited,a:link {
+	color:#ffab40
+}
+input, textarea {
+	background: none;
+	border: none;
+	outline: none;
+	resize: none;
+}
+#footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+#chatform {
+	border-top: 1px solid;
+}
+
+#messages {
+	overflow-y: scroll;
+	display: block;
+}
+
+.nick {
+	text-align: right;
+	width: 4em;
+	vertical-align: top;
+	display: inline-block;
+	padding: 0;
+	margin-right: 1em;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+
+.text {
+	display: inline-block;
+	border-left: 1px solid ;
+	border-color: #fff;
+	width: 500px;
+	word-wrap: break-word;
+	margin: 0;
+	padding-left: 1em;
+	padding-bottom: 1em;
+}
+
+.text p {
+	margin: 0;
+}
+.me .nick {
+	color: #2196F3;
+}
+.info .text{
+	color :#8BC34A;
+}
+.info .nick{
+	color :#8BC34A;
+}
+
+.nick{
+		color: #9C27B0;
+}
+
+#chatinput {
+	color: inherit;
+	width: 100%;
+	padding: 1em;
+	box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background-color: none;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #2F2F2F;
+}
+::-webkit-scrollbar-thumb:hover {
+    background-color: #202020;
+}
